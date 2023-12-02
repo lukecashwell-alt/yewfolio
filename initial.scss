@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+$primary: #feecaa; 
+$primary: #e8b46b; 
+$family-primary: "Consolas";
+
+$radius-small: 0px;
+$radius: 1px;
+$radius-large: 2px;
+$radius-rounded: 4px; 
+
+$size-1: 3rem;
+$size-2: 2.5rem;
+$size-3: 2rem;
+$size-4: 1.5rem;
+$size-5: 1.25rem;
+$size-6: 1rem;
+$size-7: 0.75rem;
+
+$rtl: true;
+$shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+// $ fcf3d2
+$background: #feecaa;
+$scheme-main: #ebe8df;
+
+
+.is_shadowed {
+    box-shadow: $shadow
+}
+
+
+@import "./bulma/bulma.sass";
